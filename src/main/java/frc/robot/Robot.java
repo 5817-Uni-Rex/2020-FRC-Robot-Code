@@ -82,6 +82,7 @@ public class Robot extends TimedRobot {
     SmartDashboard.putNumber("XRight", controller.getXRightDriver());
     SmartDashboard.putBoolean("BallDetectShot", photosensor.ballDetectShot);
     SmartDashboard.putBoolean("BallDetect", photosensor.ballDetect);
+    
     colorSensor.senseColor();
    // photosensor.PhotosensorCount();
 
